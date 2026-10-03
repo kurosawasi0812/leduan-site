@@ -12,8 +12,8 @@
 
 /* Hero: landscape background + foreground portrait, matching the Trần Hữu Dực cover */
 .hero{min-height:92vh;position:relative;display:grid;align-items:center;overflow:hidden;background:#16231f;color:#fff}
-.hero-bg{position:absolute;inset:0;background-position:center 32%;background-size:cover;background-repeat:no-repeat;transform:scale(1.03);filter:grayscale(.08)}
-.hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(15,26,23,.96),rgba(15,26,23,.80) 42%,rgba(15,26,23,.34) 74%,rgba(15,26,23,.18) 100%),linear-gradient(0deg,rgba(10,15,13,.68),transparent 52%);z-index:1}
+.hero-bg{position:absolute;inset:0;background:url("https://special.nhandan.vn/Le-Duan-voi-tu-duy-sang-tao-cua-Cach-mang-Viet-nam/assets/yzkZTJOprX/ttx-2-1000x670.jpg") center 32%/cover no-repeat;transform:scale(1.03);filter:grayscale(.08)}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(15,26,23,.86),rgba(15,26,23,.68) 42%,rgba(15,26,23,.28) 74%,rgba(15,26,23,.12) 100%),linear-gradient(0deg,rgba(10,15,13,.52),transparent 52%);z-index:1}
 .hero-content{position:relative;z-index:2;padding:150px 360px 92px 0;max-width:900px;margin-left:max(18px,calc((100% - var(--max))/2))}
 .hero h1{font-size:clamp(3.45rem,6.7vw,6.35rem);line-height:.91;letter-spacing:-.02em;margin:0 0 16px;max-width:9ch}
 .hero h1 em{display:inline-block;font-weight:400;color:#e8bf8d;font-style:normal}
